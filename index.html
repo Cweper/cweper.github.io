@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<script>
+    function NewFunc() {
+        var newg = prompt("Enterpls");
+        localStorage.setItem("Data", newg);
+        alert(localStorage.getItem("Data"));
+    }
+</script>
+<html>
+    <body>
+        <button onclick="NewFunc()">Click me!</button>
+    </body>
+</html>
